@@ -6,6 +6,9 @@
 
 This project introduces a novel approach to Alzheimer's disease prognosis by developing a Long Short-Term Memory (LSTM) model to longitudinally predict protein progression and baseline cognitive scores using neuroimaging data. Addressing the limitations of current diagnostic methods, which are largely retrospective and invasive, this project leverages PET-derived data for its non-invasive nature and detailed biomarker insights. Diverging from traditional classification-focused machine learning research, this project emphasizes regression tasks to forecast clinical measures critical to Alzheimer's progression and treatment. By targeting the prediction of cognitive decline and biomarker evolution, the model aims to facilitate earlier diagnosis, enable personalized treatment strategies, and contribute to the development of new therapeutic interventions. This work responds to the challenges of existing machine learning tools in handling the complex dimensionality mismatch of neuroimaging and biomarker data, emphasizing the need for a custom, hybrid deep learning approach to improve predictive accuracy in Alzheimer's disease progression. This project yielded a model that demonstrates promising results in accurately forecasting the progression of tau protein concentrations across the brain and cognitive metrics.
 
+![Model Diagram](img/model.png)
+
+
 ### Description 
 This repository contains the files needed to run and train the LSTM model for regional tau and cognitive score predictions.
 
